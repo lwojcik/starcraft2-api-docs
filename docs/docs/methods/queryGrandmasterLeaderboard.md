@@ -1,8 +1,24 @@
-# queryStaticProfileData
+# queryGrandmasterLeaderboard
 
-Returns
+Returns ladder data for the current season's grandmaster leaderboard.
 
 ```js
+const StarCraft2API = require('starcraft2-api');
 
+const sc2api = new StarCraft2API({
+  region: 'us',
+  clientId: 'client id',
+  clientSecret: 'clientSecret'
+});
+
+const data = await sc2api.queryGrandmasterLeaderboard(1);
+
+console.log(data);
+
+// Do something with data
 
 ```
+
+## Parameters
+
+* **regionId** (string / number) - Battle.net region id to retrieve data from
