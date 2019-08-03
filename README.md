@@ -5,4 +5,4 @@
 
 Doc site for [StarCraft2-API](https://github.com/lukemnet/starcraft2-api) deployed on [starcraft2-api.lukem.net](https://blizzapi.lukem.net).
 
-Build with [VuePress](https://vuepress.vuejs.org/).
+Built with [VuePress](https://vuepress.vuejs.org/).
