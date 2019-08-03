@@ -1,0 +1,8 @@
+# queryStaticProfileData
+
+Returns
+
+```js
+
+
+```

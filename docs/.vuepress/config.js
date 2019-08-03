@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'BlizzAPI',
-  description: 'Flexible and feature-rich Node.js library for Blizzard Battle.net APIs',
+  title: 'StarCraft2-API',
+  description: 'Flexible and feature-rich Node.js library for StarCraft II Community and Game Data APIs',
   displayAllHeaders: true,
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/docs/' },
-      { text: 'GitHub', link: 'https://github.com/lukemnet/blizzapi' },
+      { text: 'GitHub', link: 'https://github.com/lukemnet/starcraft2-api' },
     ],
     sidebar: [
       ['/', 'Home'],

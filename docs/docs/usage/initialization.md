@@ -1,13 +1,13 @@
 # Initialization
 
-Each BlizzAPI instance is tied to a specific Battle.net region and requires OAuth credentials for retrieving data. See [Blizzard Battle.net docs](https://develop.battle.net/documentation/guides/using-oauth) for information on how to obtain these.
+Each StarCraft2-API instance is tied to a specific Battle.net region and requires OAuth credentials for retrieving data. See [Blizzard Battle.net docs](https://develop.battle.net/documentation/guides/using-oauth) for information on how to obtain these.
 
 Initialization with OAuth app credentials:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const StarCraft2API = require('starcraft2-api');
 
-const BnetApi = new BlizzAPI({
+const Sc2Api = new StarCraft2API({
   region: 'us', // or 1
   clientId: 'client ID',
   clientSecret: 'client secret',
@@ -17,9 +17,9 @@ const BnetApi = new BlizzAPI({
 Initalization with OAuth access token:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const StarCraft2API = require('starcraft2-api');
 
-const BnetApi = new BlizzAPI({
+const Sc2Api = new StarCraft2API({
   region: 'us', // or 1
   accessToken: 'access token',
 });
@@ -35,6 +35,4 @@ const BnetApi = new BlizzAPI({
 
 ## OAuth authorization
 
-When BlizzAPI object is initialized with ``clientId`` and ``clientSecret``, it obtains access token automatically and sets it as a private property for future reference. While this approach is the most straightforward, it requires additional API call for OAuth authorization, thus increasing response time.
-
-When BlizzAPI object is initialized with ``accessToken``, BlizzAPI skips authorization step in order to offer shorter response time, but it comes at certain cost. See [Custom access token](/docs/usage/custom-access-token.html) for more information.
+See [BlizzAPI docs on OAuth authorization](https://blizzapi.lukem.net/docs/usage/initialization.html#oauth-authorization).
