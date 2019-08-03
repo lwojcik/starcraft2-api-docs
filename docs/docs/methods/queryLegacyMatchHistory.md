@@ -1,0 +1,30 @@
+# queryLegacyMatchHistory
+
+Returns data about an individual SC2 profile's match history.
+
+```js
+const StarCraft2API = require('starcraft2-api');
+
+const sc2api = new StarCraft2API({
+  region: 'us',
+  clientId: 'client id',
+  clientSecret: 'client secret'
+});
+
+const data = await sc2api.queryLegacyMatchHistory({
+  regionId: 1,
+  realmId: 1,
+  profileId: 1084304,
+});
+
+console.log(data);
+
+// Do something with data
+
+```
+
+## Parameter object properties
+
+* **regionId** (string / number) - player region id
+* **realmId** (string / number) - player realm id
+* **profileId** (string / number) - player profile id
