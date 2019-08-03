@@ -8,21 +8,28 @@ footer: MIT Licensed • Copyright © 2019 Łukasz Wójcik • Not created, affi
 ### Install
 
 ``` bash
-npm install blizzapi
+npm install starcraft2-api
 ```
 
 ### Quick start
 
 ``` javascript
-const BlizzAPI = require('blizzapi');
+const StarCraft2API = require('starcraft2-api');
 
-const api = new BlizzAPI({
+const sc2api = new StarCraft2API({
   region: 'us',
   clientId: 'client id',
   clientSecret: 'client secret'
 });
 
-const data = await api.query('/path/to/endpoint');
+const data = await sc2api.queryProfile({
+  regionId: 1,
+  realmId: 1,
+  profileId: 1084304,
+});
 
 console.log(data);
+
+// Do something with data
+
 ``` 

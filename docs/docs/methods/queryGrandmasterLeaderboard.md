@@ -8,7 +8,7 @@ const StarCraft2API = require('starcraft2-api');
 const sc2api = new StarCraft2API({
   region: 'us',
   clientId: 'client id',
-  clientSecret: 'clientSecret'
+  clientSecret: 'client secret'
 });
 
 const data = await sc2api.queryGrandmasterLeaderboard(1);

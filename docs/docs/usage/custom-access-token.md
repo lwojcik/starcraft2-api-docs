@@ -1,6 +1,6 @@
 # Custom access token
 
-StarCraft2-API can use custom OAuth access token to be used for data retrieval. If custom access token is provided, BlizzAPI will not request for a new one on each query. That results in shorter response time and allows for making OAuth authorization flow and data processing logic independent of each other.
+StarCraft2-API can use custom OAuth access token to be used for data retrieval. If custom access token is provided, StarCraft2-API will not request for a new one on every single query. That results in shorter response time and allows for making OAuth authorization flow and data processing logic independent of each other.
 
 As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documentation/guides/using-oauth), access tokens last for 24 hours. They can be revoked by a number of different events (password change, account lockdown etc.). StarCraft2-API can detect expired access token and obtain a new one, but ultimately **it is user's responsibility to keep custom access tokens valid and up to date**.
 

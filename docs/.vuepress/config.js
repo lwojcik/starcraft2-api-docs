@@ -34,8 +34,21 @@ module.exports = {
         collapsable: false,
         children: [
           '/docs/methods/',
-          // '/docs/methods/queryStaticProfileData.md',
+          '/docs/methods/queryStaticProfileData.md',
+          '/docs/methods/queryProfileMetadata.md',
+          '/docs/methods/queryProfile.md',
+          '/docs/methods/queryLadderSummary.md',
+          '/docs/methods/queryPlayerLadder.md',
           '/docs/methods/queryGrandmasterLeaderboard.md',
+          '/docs/methods/queryLeagueData.md',
+          '/docs/methods/querySeason.md',
+          '/docs/methods/queryPlayerAccount.md',
+          '/docs/methods/queryLegacyProfile.md',
+          '/docs/methods/queryLegacyLadders.md',
+          '/docs/methods/queryLegacyMatchHistory.md',
+          '/docs/methods/queryLegacyLadder.md',
+          '/docs/methods/queryLegacyAchievements.md',
+          '/docs/methods/queryLegacyRewards.md',
         ]
       }
     ]
