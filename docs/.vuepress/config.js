@@ -2,6 +2,9 @@ module.exports = {
   title: 'StarCraft2-API',
   description: 'Flexible and feature-rich Node.js library for StarCraft II Community and Game Data APIs',
   displayAllHeaders: true,
+  head: [
+    ['link', { rel: 'icon', href: `/logo.png` }],
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
