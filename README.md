@@ -1,4 +1,6 @@
-# blizzapi-docs
+![StarCraft2-API logo](https://raw.githubusercontent.com/lukemnet/starcraft2-api-docs/master/docs/.vuepress/public/logo.png =200x200)
+
+# starcraft2-api-docs
 
 [![Travis CI Build Status](https://travis-ci.org/lukemnet/blizzapi-docs.svg?branch=master)](https://travis-ci.org/lukemnet/blizzapi-docs)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/y2lfcp47m3tplu8i?svg=true)](https://ci.appveyor.com/project/lwojcik/blizzapi-docs)
