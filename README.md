@@ -1,4 +1,4 @@
-![StarCraft2-API logo](https://raw.githubusercontent.com/lukemnet/starcraft2-api-docs/master/docs/.vuepress/public/logo.png =200x200)
+<img src="https://raw.githubusercontent.com/lukemnet/starcraft2-api-docs/master/docs/.vuepress/public/logo.png" alt="StarCraft2-API logo" width="200" height="200">
 
 # starcraft2-api-docs
 
