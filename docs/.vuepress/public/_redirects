@@ -6,6 +6,8 @@ https://stacraft2api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
 https://www.starcraft2-api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
 https://www.sc2api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
 https://www.stacraft2api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
+https://sc2-api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
+https://www.sc2-api.lukem.net/* https://starcraft2-api.lukem.net/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://starcraft2-api.netlify.com/* https://starcraft2-api.lukem.net/:splat 301!
