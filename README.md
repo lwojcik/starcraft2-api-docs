@@ -2,7 +2,7 @@
 
 # starcraft2-api-docs
 
-[![Travis CI Build Status](https://travis-ci.org/lukemnet/blizzapi-docs.svg?branch=master)](https://travis-ci.org/lukemnet/blizzapi-docs)
+[![Travis CI Build Status](https://travis-ci.org/lukemnet/starcraft2-api-docs.svg?branch=master)](https://travis-ci.org/lukemnet/starcraft2-api-docs)
 
 
 Doc site for [StarCraft2-API](https://github.com/lukemnet/starcraft2-api) deployed on [starcraft2-api.lukem.net](https://starcraft2-api.lukem.net).
