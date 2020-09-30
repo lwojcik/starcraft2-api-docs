@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/lukemnet/starcraft2-api-docs#readme",
   "dependencies": {
-    "vuepress": "1.6.0"
+    "vuepress": "^1.6.0"
   }
 }
