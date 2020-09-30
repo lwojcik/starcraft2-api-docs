@@ -1,4 +1,4 @@
-# getAllProfileUrlLocales
+# constructProfileUrl
 
 Returns ladder data for the current season's grandmaster leaderboard.
 

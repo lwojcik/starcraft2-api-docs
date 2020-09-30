@@ -1,4 +1,4 @@
-# Available methods
+# API methods
 
 StarCraft2-API exposes methods related to each endpoint specified in [StarCraft II Community APIs](https://develop.battle.net/documentation/api-reference/starcraft-2-community-api) and [StarCraft II Game Data APIs](https://develop.battle.net/documentation/api-reference/starcraft-2-game-data-api)
 

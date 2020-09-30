@@ -16,7 +16,7 @@ module.exports = {
       ['/', 'Home'],
       {
         title: 'Getting started',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/docs/',
           '/docs/requirements.md',
@@ -26,15 +26,15 @@ module.exports = {
       },
       {
         title: 'Usage',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/docs/usage/initialization.md',
           '/docs/usage/custom-access-token.md',
         ]
       },
       {
-        title: 'Available methods',
-        collapsable: false,
+        title: 'API methods',
+        collapsable: true,
         children: [
           '/docs/methods/',
           '/docs/methods/queryStaticProfileData.md',
@@ -56,7 +56,7 @@ module.exports = {
       },
       {
         title: 'Utility methods',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/docs/utils/',
           '/docs/utils/getAllProfileUrlLocales.md',
