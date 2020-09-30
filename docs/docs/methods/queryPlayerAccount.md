@@ -22,3 +22,4 @@ console.log(data);
 ## Parameters
 
 * **accountId** (string / number) - the ID of the account for which to retrieve data. As stated in [Blizzard Battle.net docs](https://develop.battle.net/documentation/api-reference/starcraft-2-community-api), account Id is a player's profile id which is retrieved via GET ``/oauth/userinfo``. This is not the same as ``profileId`` used across different API endpoints for SC2.
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

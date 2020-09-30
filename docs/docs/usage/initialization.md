@@ -29,7 +29,7 @@ const Sc2Api = new StarCraft2API({
 ## Parameters
 
 * **region** - one of API regions as specified in [Battle.net API docs](https://develop.battle.net/documentation/guides/regionality-partitions-and-localization). BlizzAPI accepts region ID as number or string (e.g. ``1``, ``'2'``) as well as region name as a two-letter country code (e.g. ``us``, ``kr``)
-* **clientID** - client ID of application registered with Battle.net API
+* **clientId** - client ID of application registered with Battle.net API
 * **clientSecret** - client secret of application registered with Battle.net API
 * **accessToken** (optional) - valid access token issued by Battle.net API endpoint
 

@@ -52,3 +52,4 @@ console.log(data);
     * ``4`` - Diamond
     * ``5`` - Master
     * ``6`` - Grandmaster
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

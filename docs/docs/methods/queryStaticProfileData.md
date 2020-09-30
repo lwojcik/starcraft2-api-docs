@@ -23,4 +23,4 @@ console.log(data);
 ## Parameter object properties
 
 * **regionId** (string / number) - region id
-* **options** (object) - optional [QueryOptions object
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)
