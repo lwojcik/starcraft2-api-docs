@@ -18,18 +18,18 @@ module.exports = {
         title: 'Getting started',
         collapsable: false,
         children: [
-         '/docs/',
-         '/docs/requirements.md',
-         '/docs/install.md',
-         '/docs/examples.md',
+          '/docs/',
+          '/docs/requirements.md',
+          '/docs/install.md',
+          '/docs/examples.md',
         ],
       },
       {
         title: 'Usage',
         collapsable: false,
         children: [
-         '/docs/usage/initialization.md',
-         '/docs/usage/custom-access-token.md',
+          '/docs/usage/initialization.md',
+          '/docs/usage/custom-access-token.md',
         ]
       },
       {
@@ -53,7 +53,22 @@ module.exports = {
           '/docs/methods/queryLegacyAchievements.md',
           '/docs/methods/queryLegacyRewards.md',
         ]
-      }
+      },
+      {
+        title: 'Utility methods',
+        collapsable: false,
+        children: [
+          '/docs/utils/',
+          '/docs/utils/getAllProfileUrlLocales.md',
+          '/docs/utils/checkIfProfileUrlLocaleLooksValid.md',
+          '/docs/utils/validateProfileUrlLocale.md',
+          '/docs/utils/validateProfileUrl.md',
+          '/docs/utils/validateProfileId.md',
+          '/docs/utils/unpackProfileUrl.md',
+          '/docs/utils/constructProfileUrl.md',
+          '/docs/utils/profileUrlRegex.md',
+        ],
+      },
     ]
   }
 }
