@@ -1,30 +1,25 @@
 {
-  "name": "blizzapi-docs",
+  "name": "starcraft2-api-docs",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Doc site for StarCraft2-API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukemnet/blizzapi-docs.git"
+    "url": "git+https://github.com/lukemnet/starcraft2-api-docs.git"
   },
   "author": "Łukasz Wójcik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukemnet/blizzapi-docs/issues"
+    "url": "https://github.com/lukemnet/starcraft2-api-docs/issues"
   },
-  "homepage": "https://github.com/lukemnet/blizzapi-docs#readme",
+  "homepage": "https://github.com/lukemnet/starcraft2-api-docs#readme",
   "devDependencies": {
-    "vuepress": "1.5.4"
-  },
-  "snyk": true,
-  "dependencies": {
-    "snyk": "^1.393.0"
+    "vuepress": "1.6.0"
   }
 }
