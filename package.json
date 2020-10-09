@@ -2,6 +2,7 @@
   "name": "starcraft2-api-docs",
   "version": "1.0.0",
   "description": "Doc site for starcraft2-api",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
