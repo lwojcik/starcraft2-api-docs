@@ -23,3 +23,4 @@ console.log(data);
 
 * **regionId** (string / number) - region id
 * **ladderId** (string / number) - ladder id
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

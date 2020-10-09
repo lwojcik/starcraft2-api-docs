@@ -16,25 +16,25 @@ module.exports = {
       ['/', 'Home'],
       {
         title: 'Getting started',
-        collapsable: false,
+        collapsable: true,
         children: [
-         '/docs/',
-         '/docs/requirements.md',
-         '/docs/install.md',
-         '/docs/examples.md',
+          '/docs/',
+          '/docs/requirements.md',
+          '/docs/install.md',
+          '/docs/examples.md',
         ],
       },
       {
         title: 'Usage',
-        collapsable: false,
+        collapsable: true,
         children: [
-         '/docs/usage/initialization.md',
-         '/docs/usage/custom-access-token.md',
+          '/docs/usage/initialization.md',
+          '/docs/usage/custom-access-token.md',
         ]
       },
       {
-        title: 'Available methods',
-        collapsable: false,
+        title: 'API methods',
+        collapsable: true,
         children: [
           '/docs/methods/',
           '/docs/methods/queryStaticProfileData.md',
@@ -53,7 +53,23 @@ module.exports = {
           '/docs/methods/queryLegacyAchievements.md',
           '/docs/methods/queryLegacyRewards.md',
         ]
-      }
+      },
+      {
+        title: 'Utility methods',
+        collapsable: true,
+        children: [
+          '/docs/utils/',
+          '/docs/utils/getAllProfileUrlLocales.md',
+          '/docs/utils/checkIfProfileUrlLocaleLooksValid.md',
+          '/docs/utils/validateProfileUrlLocale.md',
+          '/docs/utils/checkIfProfileIdLooksValid.md',
+          '/docs/utils/validateProfileUrl.md',
+          '/docs/utils/unpackProfileUrl.md',
+          '/docs/utils/constructProfileUrl.md',
+          '/docs/utils/profileUrlRegex.md',
+          '/docs/utils/profileUrlLocaleRegex.md',
+        ],
+      },
     ]
   }
 }

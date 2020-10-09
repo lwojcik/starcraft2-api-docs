@@ -33,3 +33,4 @@ console.log(data);
   * **realmId** (string / number) - player realm id
   * **profileId** (string / number) - player profile id
 * **ladderId** (string / number) - ladder id to retrieve
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

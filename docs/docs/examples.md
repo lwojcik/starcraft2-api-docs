@@ -1,6 +1,6 @@
 # Examples
 
-BlizzAPI is used in a number of other publicly available projects.
+StarCraft2-API is used in a number of other publicly available projects.
 
 * [GitHub repositories that depend on StarCraft2-API](https://github.com/lukemnet/starcraft2-api/network/dependents)
 

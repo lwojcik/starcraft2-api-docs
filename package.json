@@ -1,8 +1,8 @@
 {
   "name": "starcraft2-api-docs",
-  "private": true,
   "version": "1.0.0",
-  "description": "Doc site for StarCraft2-API",
+  "description": "Doc site for starcraft2-api",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +19,7 @@
     "url": "https://github.com/lukemnet/starcraft2-api-docs/issues"
   },
   "homepage": "https://github.com/lukemnet/starcraft2-api-docs#readme",
-  "devDependencies": {
-    "vuepress": "1.6.0"
+  "dependencies": {
+    "vuepress": "^1.6.0"
   }
 }

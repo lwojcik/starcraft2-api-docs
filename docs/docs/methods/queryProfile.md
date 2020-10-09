@@ -28,3 +28,4 @@ console.log(data);
 * **regionId** (string / number) - player region id
 * **realmId** (string / number) - player realm id
 * **profileId** (string / number) - player profile id
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

@@ -25,7 +25,7 @@ const Sc2Api = new StarCraft2API({
 ### validateAccessTokenOnEachQuery
 Default: ``false``
 
-If set to ``true``, BlizzAPI will perform additional access token validation request on each call of ``query`` method. If access token turns out to be expired or invalid and ``refreshExpiredAccessToken`` is false, StarCraft2-API will respond as follows:
+If set to ``true``, StarCraft2-API will perform additional access token validation request on each call of ``query`` method. If access token turns out to be expired or invalid and ``refreshExpiredAccessToken`` is false, StarCraft2-API will respond as follows:
 
 ```json
 {

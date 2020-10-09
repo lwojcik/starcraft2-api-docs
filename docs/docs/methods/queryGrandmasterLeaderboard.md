@@ -22,3 +22,4 @@ console.log(data);
 ## Parameters
 
 * **regionId** (string / number) - Battle.net region id to retrieve data from
+* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)
