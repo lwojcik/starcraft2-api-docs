@@ -8,7 +8,7 @@
 
 ```bash
 git clone https://github.com/lukemnet/starcraft2-api-docs.git
-cd blizzapi-docs
+cd starcraft2-api-docs
 npm install
 npm run dev
 ```
