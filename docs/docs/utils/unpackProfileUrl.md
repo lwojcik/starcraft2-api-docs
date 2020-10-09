@@ -1,25 +1,33 @@
 # unpackProfileUrl
 
-Returns ladder data for the current season's grandmaster leaderboard.
+Extracts player data (region ID, realm ID, profile ID and locale) from a valid StarCraft2.com profile URL.
+
+Returns `{}` (empty object) if a profile URL doesn't pass validation with [`checkIfProfileUrlLooksValid`](/docs/utils/checkIfProfileUrlLooksValid.html).
+
+To extract player object together with URL locale, pass `true` as the second argument.
 
 ```js
 const StarCraft2API = require('starcraft2-api');
 
-const sc2api = new StarCraft2API({
-  region: 'us',
-  clientId: 'client id',
-  clientSecret: 'client secret'
-});
+const url = "https://starcraft2.com/en-us/profile/1/1/6615271";
 
-const data = await sc2api.queryGrandmasterLeaderboard(1);
+const playerObject = StarCraft2API.unpackProfileUrl(url);
 
-console.log(data);
+console.log(playerObject);
+// {
+//    regionId: "1",
+//    realmId: "1",
+//    profileId: "6615271"
+// }
 
-// Do something with data
+// extracting player object with locale
+const playerObject = StarCraft2API.unpackProfileUrl(url, true);
 
+console.log(playerObject);
+// {
+//    regionId: "1",
+//    realmId: "1",
+//    profileId: "6615271",
+//    locale: "en-us"
+// }
 ```
-
-## Parameters
-
-* **regionId** (string / number) - Battle.net region id to retrieve data from
-* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

@@ -1,25 +1,22 @@
 # constructProfileUrl
 
-Returns ladder data for the current season's grandmaster leaderboard.
+Returns a valid StarCraft II profile URL containing player data passed as an argument. Accepts player data object with an optional locale.
 
 ```js
 const StarCraft2API = require('starcraft2-api');
 
-const sc2api = new StarCraft2API({
-  region: 'us',
-  clientId: 'client id',
-  clientSecret: 'client secret'
-});
+console.log(StarCraft2API.constructProfileUrl({
+  regionId: 1,
+  realmId: 2,
+  profileId: 242838,
+}));
+// https://starcraft2.com/en-us/profile/1/2/242838
 
-const data = await sc2api.queryGrandmasterLeaderboard(1);
-
-console.log(data);
-
-// Do something with data
+console.log(StarCraft2API.constructProfileUrl({
+  regionId: 2,
+  realmId: 1,
+  profileId: 5593296,
+}, 'pl-pl'));
+// https://starcraft2.com/pl-pl/profile/2/1/5593296
 
 ```
-
-## Parameters
-
-* **regionId** (string / number) - Battle.net region id to retrieve data from
-* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)

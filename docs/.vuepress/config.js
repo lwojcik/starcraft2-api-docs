@@ -62,11 +62,12 @@ module.exports = {
           '/docs/utils/getAllProfileUrlLocales.md',
           '/docs/utils/checkIfProfileUrlLocaleLooksValid.md',
           '/docs/utils/validateProfileUrlLocale.md',
+          '/docs/utils/checkIfProfileIdLooksValid.md',
           '/docs/utils/validateProfileUrl.md',
-          '/docs/utils/validateProfileId.md',
           '/docs/utils/unpackProfileUrl.md',
           '/docs/utils/constructProfileUrl.md',
           '/docs/utils/profileUrlRegex.md',
+          '/docs/utils/profileUrlLocaleRegex.md',
         ],
       },
     ]

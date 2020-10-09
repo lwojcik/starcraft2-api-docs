@@ -15,5 +15,4 @@ console.log(StarCraft2API.validateProfileUrlLocale('cn-cn'));
 
 console.log(StarCraft2API.validateProfileUrlLocale('invalid-locale'));
 // RangeError: 'invalid-locale' is not a valid parameter for validateProfileUrlLocale
-
 ```

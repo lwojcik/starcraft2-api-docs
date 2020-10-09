@@ -1,25 +1,19 @@
 # validateProfileUrl
 
-Returns ladder data for the current season's grandmaster leaderboard.
+Checks if string provided as an argument is a formally valid StarCraft II profile URL using [the profile URL regular expression](/docs/utils/profileUrlRegex.md).
+
+Note that
 
 ```js
 const StarCraft2API = require('starcraft2-api');
 
-const sc2api = new StarCraft2API({
-  region: 'us',
-  clientId: 'client id',
-  clientSecret: 'client secret'
-});
+console.log(BlizzAPI.validateProfileUrl('https://starcraft2.com/en-us/profile/1/2/242838');
+// true
 
-const data = await sc2api.queryGrandmasterLeaderboard(1);
+console.log(BlizzAPI.validateProfileUrl('starcraft2.com/pl-pl/profile/2/1/5593296');
+// true
 
-console.log(data);
-
-// Do something with data
+console.log(BlizzAPI.validateProfileUrl('starcraft2.com/pl-pl/profile/2/1/5593296');
+// true
 
 ```
-
-## Parameters
-
-* **regionId** (string / number) - Battle.net region id to retrieve data from
-* **options** (object, optional) - [query options](https://blizzapi.lukem.net/docs/usage/query.html#query-options)
