@@ -2,7 +2,7 @@
 
 # starcraft2-api-docs
 
-[![Travis CI Build Status](https://travis-ci.org/lukemnet/starcraft2-api-docs.svg?branch=master)](https://travis-ci.org/lukemnet/starcraft2-api-docs)
+[![Travis CI Build Status](https://travis-ci.com/lukemnet/starcraft2-api-docs.svg?branch=master)](https://travis-ci.com/lukemnet/starcraft2-api-docs)
 
 ## Install and run locally
 
