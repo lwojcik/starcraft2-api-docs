@@ -3,7 +3,8 @@ module.exports = {
   description: 'Flexible and feature-rich Node.js library for StarCraft II Community and Game Data APIs',
   displayAllHeaders: true,
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['meta', { name: 'twitter:dnt', content: 'on' }],
   ],
   themeConfig: {
     lastUpdated: 'Last Updated',
