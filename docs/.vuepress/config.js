@@ -6,6 +6,11 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['meta', { name: 'twitter:dnt', content: 'on' }],
   ],
+  plugins: {
+    sitemap: {
+      hostname: 'https://starcraft2-api.lukem.net'
+    },
+  },
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
