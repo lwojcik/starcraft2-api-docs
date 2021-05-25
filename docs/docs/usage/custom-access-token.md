@@ -7,7 +7,7 @@ As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documenta
 Initialization with custom access token and additional options:
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const Sc2Api = new StarCraft2API({
   region: 'us', // or 1

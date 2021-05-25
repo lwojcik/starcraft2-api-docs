@@ -5,7 +5,7 @@ Tests if an argument matches the regex pattern typical for locales used in StarC
 This function does not determine whether the locale is supported by Battle.net API. For locale validation see [validateProfileUrlLocale](/docs/utils/validateProfileUrlLocale.md).
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 console.log(StarCraft2API.checkIfProfileUrlLocaleLooksValid('en-us'));
 // true

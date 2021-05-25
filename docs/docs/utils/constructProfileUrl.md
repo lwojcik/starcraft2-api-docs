@@ -3,7 +3,7 @@
 Returns a valid StarCraft II profile URL containing player data passed as an argument. Accepts player data object with an optional locale.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 console.log(StarCraft2API.constructProfileUrl({
   regionId: 1,

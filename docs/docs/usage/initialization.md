@@ -5,7 +5,7 @@ Each StarCraft2-API instance is tied to a specific Battle.net region and require
 Initialization with OAuth app credentials:
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const Sc2Api = new StarCraft2API({
   region: 'us', // or 1
@@ -17,7 +17,7 @@ const Sc2Api = new StarCraft2API({
 Initalization with OAuth access token:
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const Sc2Api = new StarCraft2API({
   region: 'us', // or 1

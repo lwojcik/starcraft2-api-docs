@@ -3,7 +3,7 @@
 Returns a ladder summary for an individual SC2 profile.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const sc2api = new StarCraft2API({
   region: 'us',

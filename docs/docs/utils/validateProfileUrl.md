@@ -5,7 +5,7 @@ Checks if string provided as an argument is a formally valid StarCraft II profil
 Note that
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 console.log(BlizzAPI.validateProfileUrl('https://starcraft2.com/en-us/profile/1/2/242838');
 // true

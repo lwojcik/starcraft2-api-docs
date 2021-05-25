@@ -3,7 +3,7 @@
 Returns data for the specified season, queue, team, and league.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const sc2api = new StarCraft2API({
   region: 'us',

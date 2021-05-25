@@ -3,7 +3,7 @@
 Returns an array containing all available locale codes used in StarCraft II profile URLs.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 console.log(StarCraft2API.getAllProfileUrlLocales());
 // [

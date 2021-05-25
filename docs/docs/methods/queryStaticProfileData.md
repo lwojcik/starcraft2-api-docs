@@ -4,7 +4,7 @@ Returns all static SC2 profile data (achievements, categories, criteria, and rew
 
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const sc2api = new StarCraft2API({
   region: 'us',

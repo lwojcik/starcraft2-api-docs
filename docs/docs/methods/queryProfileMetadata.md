@@ -6,7 +6,7 @@ Metadata is basic information about a StarCraft II player. It is not particularl
 to identify them in the game and retrieve more detailed information on their game performance.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const sc2api = new StarCraft2API({
   region: 'us',

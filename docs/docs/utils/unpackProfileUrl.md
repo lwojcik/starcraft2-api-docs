@@ -7,7 +7,7 @@ Returns `{}` (empty object) if a profile URL doesn't pass validation with [`chec
 To extract player object together with URL locale, pass `true` as the second argument.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const url = "https://starcraft2.com/en-us/profile/1/1/6615271";
 
