@@ -3,7 +3,7 @@
 Returns data about the current season.
 
 ```js
-const StarCraft2API = require('starcraft2-api');
+const { StarCraft2API } = require('starcraft2-api');
 
 const sc2api = new StarCraft2API({
   region: 'us',
