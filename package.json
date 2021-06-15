@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukemnet/starcraft2-api-docs.git"
+    "url": "git+https://github.com/blizzapi/starcraft2-api-docs.git"
   },
   "author": "Łukasz Wójcik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukemnet/starcraft2-api-docs/issues"
+    "url": "https://github.com/blizzapi/starcraft2-api-docs/issues"
   },
-  "homepage": "https://github.com/lukemnet/starcraft2-api-docs#readme",
+  "homepage": "https://github.com/blizzapi/starcraft2-api-docs#readme",
   "dependencies": {
     "vuepress": "^1.6.0"
   }

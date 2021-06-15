@@ -20,17 +20,17 @@ StarCraft2-API is also available as UMD module and it can be accessed via CDN:
 <script src="https://unpkg.com/starcraft2-api/dist/index.umd.js"></script>
 ```
 
-StarCraft2-API uses [BlizzAPI](https://github.com/lukemnet/blizzapi) and [axios](https://github.com/axios/axios) for HTTP requests. If you use UMD build without any module tooling you have to provide those dependencies manually.
+StarCraft2-API uses [BlizzAPI](https://github.com/blizzapi/blizzapi) and [axios](https://github.com/axios/axios) for HTTP requests. If you use UMD build without any module tooling you have to provide those dependencies manually.
 
 ## Manual build
 
-[StarCraft2-API is available on GitHub](https://github.com/lukemnet/starcraft2-api) and it can be built from source code.
+[StarCraft2-API is available on GitHub](https://github.com/blizzapi/starcraft2-api) and it can be built from source code.
 
 ``` bash
-git clone https://github.com/lukemnet/starcraft2-api.git
+git clone https://github.com/blizzapi/starcraft2-api.git
 cd starcraft2-api
 npm install
 npm run build
 ```
 
-All released packages are also available in [GitHub releases section](https://github.com/lukemnet/starcraft2-api/releases).
+All released packages are also available in [GitHub releases section](https://github.com/blizzapi/starcraft2-api/releases).
