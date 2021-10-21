@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://starcraft2-api.lukem.net/sitemap.xml
