@@ -1,4 +1,4 @@
-# queryStaticProfileData
+# queryPlayerAccount
 
 Returns metadata for an individual's account.
 
