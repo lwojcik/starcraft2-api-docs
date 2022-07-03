@@ -32,6 +32,7 @@ const Sc2Api = new StarCraft2API({
 * **clientId** - client ID of application registered with Battle.net API
 * **clientSecret** - client secret of application registered with Battle.net API
 * **accessToken** (optional) - valid access token issued by Battle.net API endpoint
+* **timeoutMs** (optional) - response timeout in miliseconds (default: 10000ms)
 
 ## OAuth authorization
 
