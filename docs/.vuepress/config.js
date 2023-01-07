@@ -11,11 +11,6 @@ module.exports = {
     sitemap: {
       hostname: "https://starcraft2-api.lukem.net",
     },
-    "@lukemnet/vuepress-plugin-matomo": {
-      siteId: 8,
-      trackerUrl: "https://s.lukem.eu/",
-      trackerJsFile: "vqmwssk.php",
-    },
   },
   themeConfig: {
     lastUpdated: "Last Updated",
