@@ -2,7 +2,7 @@
 
 # starcraft2-api-docs
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a37dddd5-2ba1-44a8-b6ac-3c626a1305d6/deploy-status)](https://app.netlify.com/sites/starcraft2-api/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a37dddd5-2ba1-44a8-b6ac-3c626a1305d6/deploy-status)](https://starcraft2-api.lukem.net/)
 
 Doc site for [StarCraft2-API](https://github.com/blizzapi/starcraft2-api) deployed on [starcraft2-api.lukem.net](https://starcraft2-api.lukem.net), built with [VuePress](https://vuepress.vuejs.org/).
 
