@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/blizzapi/starcraft2-api-docs#readme",
   "dependencies": {
-    "vuepress": "1.9.8",
+    "vuepress": "1.9.9",
     "vuepress-plugin-sitemap": "2.3.1"
   }
 }
